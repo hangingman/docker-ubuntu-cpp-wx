@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app:
+    image: hiroyuking/docker-ubuntu-cpp-wx:1.0
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
